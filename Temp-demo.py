@@ -4,7 +4,7 @@ import time
 import json
 
 # Configuration
-THINGSBOARD_HOST = "localhost"
+THINGSBOARD_HOST = "thingsboard.cloud"
 ACCESS_TOKEN = "RT8JnXB2vEGc4luCJntD"
 PORT = 1883  # Default MQTT port for ThingsBoard CE
 TOPIC = "v1/devices/me/telemetry"

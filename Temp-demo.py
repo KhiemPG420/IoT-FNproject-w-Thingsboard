@@ -5,7 +5,7 @@ import json
 
 # Configuration
 THINGSBOARD_HOST = "localhost"
-ACCESS_TOKEN = "lhn3p1vmb7pd4an4zhty"
+ACCESS_TOKEN = "RT8JnXB2vEGc4luCJntD"
 PORT = 1883  # Default MQTT port for ThingsBoard CE
 TOPIC = "v1/devices/me/telemetry"
 
@@ -27,7 +27,7 @@ try:
 
     while True:
         telemetry = {
-            "temperature": round(random.uniform(25.0, 38.0), 2),
+            "temperature": round(random.uniform(35.0, 45.0), 2),
             "humidity": round(random.uniform(30.0, 70.0), 2)
         }
         payload = json.dumps(telemetry)
